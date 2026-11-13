@@ -1,0 +1,3 @@
+{"die": "d1", "event_day": 1, "id": "t1", "passed": false, "received_day": 1, "revoked": false, "sequence": 1}
+{"die": "d1", "event_day": 3, "id": "t2", "passed": true, "received_day": 8, "revoked": false, "sequence": 2}
+{"die": "d2", "event_day": 1, "id": "t3", "passed": true, "received_day": 1, "revoked": false, "sequence": 1}

@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "tables": {
+    "dies": {
+      "file": "normal-dies.jsonl",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "bytes": 183,
+      "rows": 3,
+      "fields": [
+        "id",
+        "wafer",
+        "product",
+        "first_day"
+      ]
+    },
+    "tests": {
+      "file": "normal-tests.jsonl",
+      "sha256": "0c1118cca2d24322f346ec6ebb9421ca55c9f35f5f313a3894a2e91a4a8ca8aa",
+      "bytes": 331,
+      "rows": 3,
+      "fields": [
+        "id",
+        "die",
+        "sequence",
+        "event_day",
+        "received_day",
+        "passed",
+        "revoked"
+      ]
+    },
+    "reference": {
+      "file": "normal-reference.jsonl",
+      "sha256": "f09bfbc58364106132dc09d896672ae9da6b524381759bbbf5baace6e4dfb411",
+      "bytes": 54,
+      "rows": 2,
+      "fields": [
+        "id",
+        "share"
+      ]
+    }
+  }
+}

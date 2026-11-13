@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "tables": {
+    "dies": {
+      "file": "boundary-dies.jsonl",
+      "sha256": "f8eff74e0df0a36f17a56f51ee059e289ae8ebc824b4fac47129a934eb41ca73",
+      "bytes": 183,
+      "rows": 3,
+      "fields": [
+        "id",
+        "wafer",
+        "product",
+        "first_day"
+      ]
+    },
+    "tests": {
+      "file": "boundary-tests.jsonl",
+      "sha256": "060f30d63cade133b0cd7e3f6026164f9b1cea6edf43ce6cf64ece318a525515",
+      "bytes": 333,
+      "rows": 3,
+      "fields": [
+        "id",
+        "die",
+        "sequence",
+        "event_day",
+        "received_day",
+        "passed",
+        "revoked"
+      ]
+    },
+    "reference": {
+      "file": "boundary-reference.jsonl",
+      "sha256": "f09bfbc58364106132dc09d896672ae9da6b524381759bbbf5baace6e4dfb411",
+      "bytes": 54,
+      "rows": 2,
+      "fields": [
+        "id",
+        "share"
+      ]
+    }
+  }
+}
